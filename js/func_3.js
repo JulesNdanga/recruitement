@@ -1,7 +1,7 @@
 /*  Wizard */
 jQuery(function ($) {
     "use strict";
-    $('form#wrapped').attr('action', 'https://54.220.61.218/paiement/');
+    $('form#wrapped').attr('action', 'https://54.220.61.218/recruitement/monetbil/paiement/');
     $("#wizard_container").wizard({
         stepsWrapper: "#wrapped",
         submit: ".submit",
